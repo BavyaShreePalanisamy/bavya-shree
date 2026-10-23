@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Bavya Shree's personal portfolio">
+  <title>Bavya Shree | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home">B<span>S.</span></a>
+    <nav id="nav-menu" class="nav-menu" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#about">About</a><a href="#education">Education</a>
+      <a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="header-actions">
+      <button id="theme-toggle" class="icon-btn" type="button" aria-label="Switch theme">☾</button>
+      <button id="menu-toggle" class="icon-btn menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero section-wrap">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> PERSONAL PORTFOLIO</p>
+        <h1>Hello, I'm<br><span>Bavya Shree.</span></h1>
+        <h2>Student <span class="divider-mark">/</span> Aspiring Developer</h2>
+        <p class="hero-intro">Welcome to my portfolio — a space to share my learning journey, skills, projects, and goals. I'm excited to keep learning, building, and growing in technology.</p>
+        <div class="hero-buttons">
+          <a class="btn btn-primary" href="#projects">Explore Projects <span>↗</span></a>
+          <a class="btn btn-secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="quick-facts">
+          <div><strong>01</strong><span>Curious mind</span></div>
+          <div><strong>02</strong><span>Always learning</span></div>
+          <div><strong>03</strong><span>Building skills</span></div>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="photo-frame">
+          <div class="photo-topline"><span>HELLO THERE</span><span>✦</span></div>
+          <div class="photo-wrap">
+            <img src="images/bavya-photo.jpeg" alt="Bavya Shree profile photo" onerror="this.style.display='none';this.nextElementSibling.style.display='grid'">
+            <div class="photo-placeholder"><span>BS</span><small>Add your photo to images/bavya-photo.jpeg</small></div>
+          </div>
+          <div class="photo-caption"><div><strong>Bavya Shree</strong><span>Student Portfolio</span></div><span class="caption-star">✳</span></div>
+        </div>
+        <span class="floating-note note-one">✦ &nbsp; Learn. Create. Grow.</span>
+        <span class="floating-note note-two">Creative mind <b>↗</b></span>
+      </div>
+    </section>
+
+    <section id="about" class="section-wrap section-block">
+      <div class="section-heading reveal"><p class="eyebrow">01 / ABOUT</p><h2>A little about <span>me.</span></h2></div>
+      <div class="about-grid">
+        <p class="about-lead reveal">I believe every small step in learning can lead to something meaningful.</p>
+        <div class="about-copy reveal"><p>I'm Bavya Shree, a student interested in technology and personal growth. This portfolio is where I can showcase my education, skills, and projects as I continue developing my abilities.</p><p>My goal is to gain practical experience, work on useful projects, and become a confident professional.</p><div class="mini-tags"><span>Growth mindset</span><span>Problem solving</span><span>Teamwork</span></div></div>
+      </div>
+    </section>
+
+    <section id="education" class="section-wrap section-block">
+      <div class="section-heading reveal"><p class="eyebrow">02 / JOURNEY</p><h2>My education <span>journey.</span></h2><p class="section-subtitle">Add or update the education details below with Bavya's exact information.</p></div>
+      <div class="timeline">
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">SCHOOL EDUCATION</div><div class="timeline-card"><h3>School Name</h3><p>Enter school name and qualification</p><span class="timeline-chip">Schooling</span></div></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">CURRENT STUDIES</div><div class="timeline-card"><h3>College / Institution</h3><p>Enter degree, department, and current year</p><span class="timeline-chip">Undergraduate</span></div></article>
+        <article class="timeline-item reveal"><span class="timeline-dot"></span><div class="timeline-date">FUTURE GOAL</div><div class="timeline-card"><h3>Keep learning and building</h3><p>Develop practical skills and gain project experience.</p><span class="timeline-chip">In progress</span></div></article>
+      </div>
+    </section>
+
+    <section id="skills" class="section-wrap section-block">
+      <div class="section-heading reveal"><p class="eyebrow">03 / SKILLS</p><h2>Skills I'm <span>building.</span></h2><p class="section-subtitle">Replace these sample skills with the tools and subjects Bavya has studied.</p></div>
+      <div class="skills-grid">
+        <div class="skill-card reveal"><span class="skill-icon">⌘</span><h3>Programming</h3><p>Programming fundamentals</p></div>
+        <div class="skill-card reveal"><span class="skill-icon">⌁</span><h3>Web Design</h3><p>HTML and CSS basics</p></div>
+        <div class="skill-card reveal"><span class="skill-icon">◇</span><h3>Problem Solving</h3><p>Logical thinking</p></div>
+        <div class="skill-card reveal"><span class="skill-icon">✳</span><h3>Communication</h3><p>Learning and collaboration</p></div>
+      </div>
+    </section>
+
+    <section id="projects" class="section-wrap section-block">
+      <div class="section-heading reveal"><p class="eyebrow">04 / WORK</p><h2>Selected <span>projects.</span></h2><p class="section-subtitle">Project cards are ready to customise when Bavya's project details are available.</p></div>
+      <div class="projects-grid">
+        <article class="project-card reveal"><div class="project-art art-one"><span>PROJECT</span><b>01</b><i>✳</i></div><div class="project-content"><div class="project-meta"><span>01 / START HERE</span><span>↗</span></div><h3>My First Project</h3><p>Add the project title, what it does, and the technologies used.</p><span class="project-tag">Add tech stack</span></div></article>
+        <article class="project-card reveal"><div class="project-art art-two"><span>PROJECT</span><b>02</b><i>⌘</i></div><div class="project-content"><div class="project-meta"><span>02 / EXPLORE</span><span>↗</span></div><h3>Academic Project</h3><p>Describe an academic or mini project here in a few simple lines.</p><span class="project-tag">Add tech stack</span></div></article>
+        <article class="project-card reveal"><div class="project-art art-three"><span>PROJECT</span><b>03</b><i>◇</i></div><div class="project-content"><div class="project-meta"><span>03 / NEXT UP</span><span>↗</span></div><h3>Future Idea</h3><p>Showcase another project when it is ready to share.</p><span class="project-tag">Coming soon</span></div></article>
+      </div>
+    </section>
+
+    <section class="quote-section section-wrap reveal"><span class="quote-mark">“</span><p>Great things are done by a series of small things brought together.</p><span class="quote-author">— Vincent van Gogh</span></section>
+
+    <section id="contact" class="section-wrap section-block contact-section">
+      <div class="contact-panel reveal"><div><p class="eyebrow">05 / CONTACT</p><h2>Let's create<br><span>something good.</span></h2><p>Have an opportunity, idea, or project to discuss? I'd be happy to connect.</p></div>
+        <div class="contact-details"><a href="mailto:your-email@example.com"><span>Email</span><strong>your-email@example.com ↗</strong></a><div><span>Location</span><strong>Add city, Tamil Nadu</strong></div><p class="contact-note">Update the sample email and location with Bavya's details.</p></div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section-wrap"><a class="brand" href="#home">B<span>S.</span></a><p>Designed with care by Bavya Shree</p><a href="#home">Back to top ↑</a><small>© <span id="year"></span> Bavya Shree. All rights reserved.</small></footer>
+  <button id="back-to-top" class="back-to-top" type="button" aria-label="Back to top">↑</button>
+</body>
+</html>
